@@ -1,12 +1,12 @@
 # GDT-Generator
 GDT generator for Call of Duty 2
 
-This will create a GDT file for all DDS images in the folder you specify. Supports normal map and specular map alignment if textures are properly named. Same thing with surface types.
+This will create a GDT file for all DDS images in the folder you specify. Supports normal map and specular map alignment if textures are properly named. Same with surface types.
 
 eg.  
-nt_floor_carpet3.dds - Colour map, surfaceType = carpet  
-nt_floor_carpet3_n.tga - Normal map, surfaceType = carpet  
-nt_floor_carpet3_s.tga - Specular map, surfaceType = carpet  
+nt_floor_carpet3.dds - Colour map, surfaceType detected = carpet  
+nt_floor_carpet3_n.tga - Normal map, surfaceType detected = carpet  
+nt_floor_carpet3_s.tga - Specular map, surfaceType detected = carpet  
   
 Also, normal/specular maps should be the .TGA filetype.
   
