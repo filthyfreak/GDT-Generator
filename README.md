@@ -10,7 +10,7 @@ nt_floor_carpet3_s.tga - Specular map, surfaceType = carpet
   
 Also, normal/specular maps should be the .TGA filetype.
   
-Lastly alpha detection is applied to automatically flag textures as transparent.
+Lastly I have included detection for alpha/transparent textures and automatically apply the 'Blend' flag if so.
 
 Requires Python (Tested on version 3.7.9) and Pillow (pip install pillow).
 
